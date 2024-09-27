@@ -1,5 +1,4 @@
-'use strict'
-let Input = alert(„Insert Number:“);
+let Input = alert(„Insert Number (10):“);
 let allow  = {
 max: „20“;
 min: „0“;
@@ -18,4 +17,4 @@ console.log(„Your number is not correct“);
 }
 console.log(„Number is Right: “ + right );
 };
-show_count(input); 
+show_count(input);
