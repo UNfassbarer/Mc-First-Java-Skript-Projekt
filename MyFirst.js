@@ -1,17 +1,21 @@
 'use strict'
-var Name_a;
-var Name_b;
-var Zahl_a;
-var Zahl_b;
-
-alert('Mein erster Versuch in JavaScript --> Ausgabe in einem Diagnosefeld');
-
-Name_a = prompt('Gib deinen Vornamen ein!');
-Name_b = prompt('Gib deinen Nachnamen ein!');
-Zahl_a = prompt('Bitte gib eine Zahl ein!');
-Zahl_b = prompt('Bitte gib eine weitere Zahl ein!');
-
-alert('Hallo ' + Name_a + ' ' + Name_b + ', deine Zahlen lauten: ' + Zahl_a + ' und ' + Zahl_b);
-
-console.log('Mein erster Versuch in JavaScript --> Ausgabe in der Konsole des Browsers --> F12');
-console.log('Hallo ' + Name_a + ' ' + Name_b + ', deine Zahlen lauten ' + Zahl_a + ' und ' + Zahl_b);
+let Input = alert(„Insert Number:“);
+let allow  = {
+max: „20“;
+min: „0“;
+};
+let right = input === 10;
+function show_count (count) {
+return count ;
+if (allow.max >= input) {
+console.log(„Your number ist: „ + count);
+}
+else if (allow.min <= input) {
+console.log(„Your number ist: „ + count);
+}
+else {
+console.log(„Your number is not correct“);
+}
+console.log(„Number is Right: “ + right );
+};
+show_count(input); 
